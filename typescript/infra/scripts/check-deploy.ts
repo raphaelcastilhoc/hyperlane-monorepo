@@ -186,7 +186,7 @@ async function check() {
         multiProvider,
       );
 
-    // log error and return is foreign deployment chain is specifically checked
+    // log error and return if foreign deployment chain is specifically checked
     if (
       (chain && foreignDeployments[chain]) ||
       (fork && foreignDeployments[fork])
